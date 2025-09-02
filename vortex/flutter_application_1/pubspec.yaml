@@ -30,7 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  location: ^5.0.3  # For GPS location
+  flutter_local_notifications: ^17.1.2 # For displaying alerts
+  http: ^1.2.1 # For sending data to a (mock) server
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
